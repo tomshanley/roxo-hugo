@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function() {    
+/*window.addEventListener("DOMContentLoaded", function() {    
   var form = document.getElementById("contact-form");
   var button = document.getElementById("contact-form-button");
   var status = document.getElementById("contact-form-status");
@@ -37,4 +37,4 @@ function ajax(method, url, data, success, error) {
     }
   };
   xhr.send(data);
-}
+}*/
