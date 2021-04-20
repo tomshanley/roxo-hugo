@@ -632,7 +632,7 @@ textarea.form-control {
   @media (max-width: 575px) {
     .site-about-header {
       padding-top: 60px;
-      text-align: center; } }
+    } }
 
 .site-about-wrapper {
   display: flex;
