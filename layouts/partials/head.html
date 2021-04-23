@@ -1,6 +1,9 @@
 <head>
   <meta charset="utf-8" />
-  <title>{{ .Title | plainify }}</title>
+  <title>Tom Shanley | {{ with .Params.shortTitle }} {{ . }} {{ else }} {{ .Title | plainify }}  {{ end }}</title>
+
+    
+
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
